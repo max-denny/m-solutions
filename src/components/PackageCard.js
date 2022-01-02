@@ -6,20 +6,20 @@ import CardMedia from '@material-ui/core/CardMedia'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 
-
 const PackageCard = () => {
+
     return(
         <div>
                 <Card >
-                    <CardMedia style={{height: 30, paddingTop: '0.1rem'}}
+                    <CardMedia style={{height: 80, paddingTop: '1px'}}
                     // image={''}
                     title={'Basic Package'}
                     />
                     <CardContent>
-                    <Typography gutterBottom variant="headline" component="h2">
+                    <Typography gutterBottom variant="headline" component="h1">
                         {'Package Card'}
                     </Typography>
-                    <Typography component="p">
+                    <Typography component="h2">
                         {'Basic Package'}
                     </Typography>
                     </CardContent>

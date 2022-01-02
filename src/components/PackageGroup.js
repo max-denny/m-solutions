@@ -5,8 +5,14 @@ import PackageCard from './PackageCard';
 const PackageGroup = () => {
     return (
         <div>
-            <Grid container spacing={24} style={{padding: 24}}>
-                    <Grid item xs={12} sm={6} lg={4} xl={3}>
+            <Grid container spacing={4} style={{padding: 4}}>
+                    <Grid item xs={4} sm={6} lg={4} xl={3}>
+                        <PackageCard />
+                    </Grid>
+                    <Grid item xs={4} sm={6} lg={4} xl={3}>
+                        <PackageCard />
+                    </Grid>
+                    <Grid item xs={4} sm={6} lg={4} xl={3}>
                         <PackageCard />
                     </Grid>
             </Grid>
